@@ -1,14 +1,15 @@
 pipeline {
-    agent any
-    stages {
-        stage('Install') { 
-            steps {
-                sh 'npm install' 
-            }
+    agent {
+        docker {
+            image 'node:6-alpine'
+            args '-p 3000:3000'
         }
-        stage('Clear cache') { 
+    }
+    stages {
+        stage('Build') { 
             steps {
-                sh 'rm -rf node_modules/gh-pages/.cache' 
+                sh 'npm install'
+                sh 'rm -rf node_modules/gh-pages/.cache'  
             }
         }
         stage('Deploy to GitHub Pages') { 
