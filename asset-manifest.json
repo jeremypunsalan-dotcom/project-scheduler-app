@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/project-scheduler-app/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/project-scheduler-app/static/js/main.181ed2e8.chunk.js",
-    "main.js.map": "/project-scheduler-app/static/js/main.181ed2e8.chunk.js.map",
-    "runtime-main.js": "/project-scheduler-app/static/js/runtime-main.b084853b.js",
-    "runtime-main.js.map": "/project-scheduler-app/static/js/runtime-main.b084853b.js.map",
-    "static/css/2.4ca344da.chunk.css": "/project-scheduler-app/static/css/2.4ca344da.chunk.css",
-    "static/js/2.881aa150.chunk.js": "/project-scheduler-app/static/js/2.881aa150.chunk.js",
-    "static/js/2.881aa150.chunk.js.map": "/project-scheduler-app/static/js/2.881aa150.chunk.js.map",
-    "index.html": "/project-scheduler-app/index.html",
-    "precache-manifest.520d96d81691dc0eb1a814d0f438328a.js": "/project-scheduler-app/precache-manifest.520d96d81691dc0eb1a814d0f438328a.js",
-    "service-worker.js": "/project-scheduler-app/service-worker.js",
-    "static/css/2.4ca344da.chunk.css.map": "/project-scheduler-app/static/css/2.4ca344da.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/project-scheduler-app/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.881aa150.chunk.js.LICENSE.txt": "/project-scheduler-app/static/js/2.881aa150.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.4b238e04.chunk.js",
+    "main.js.map": "/static/js/main.4b238e04.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e044f6ba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e044f6ba.js.map",
+    "static/css/2.4ca344da.chunk.css": "/static/css/2.4ca344da.chunk.css",
+    "static/js/2.881aa150.chunk.js": "/static/js/2.881aa150.chunk.js",
+    "static/js/2.881aa150.chunk.js.map": "/static/js/2.881aa150.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.38abd05aa39973c6fa489b007e07b8bf.js": "/precache-manifest.38abd05aa39973c6fa489b007e07b8bf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4ca344da.chunk.css.map": "/static/css/2.4ca344da.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.881aa150.chunk.js.LICENSE.txt": "/static/js/2.881aa150.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b084853b.js",
+    "static/js/runtime-main.e044f6ba.js",
     "static/css/2.4ca344da.chunk.css",
     "static/js/2.881aa150.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.181ed2e8.chunk.js"
+    "static/js/main.4b238e04.chunk.js"
   ]
 }
