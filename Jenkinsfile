@@ -13,6 +13,7 @@ pipeline {
         stage('Deploy to GitHub Pages') { 
             steps {
                 sh 'npm run build' 
+                sh 'npm run deploy'
             }
         }
    	
