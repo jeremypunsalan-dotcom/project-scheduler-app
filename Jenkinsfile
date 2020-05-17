@@ -7,12 +7,12 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install'
-                sh 'rm -rf node_modules/gh-pages/.cache'  
+                sh 'npm run build'
             }
         }
         stage('Deploy to GitHub Pages') { 
             steps {
-                sh 'npm run build' 
+                sh 'rm -rf node_modules/gh-pages/.cache'
                 sh 'npm run deploy'
             }
         }
